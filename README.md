@@ -59,9 +59,10 @@ Rscript scripts/fit_HBM.R
 
 ## Key Results
 
-- Dynamic α-HBM yielded improved predictive fit over static model (PSIS-LOO).
-- Parameter recovery simulations suggest that the static model may confound reward sensitivity (ρ) and learning speed (α).
-- AQ-related effects replicated partially, with reward sensitivity (ρ_win) negatively correlated with AQ scores as in original MLE analysis.
+- The dynamic-α HBM showed improved predictive performance over the static model (Δ ELPD = +17.3 ± 7.6, PSIS-LOO).
+- Parameter recovery simulation was inconclusive due to low κ variance and poor identifiability under current settings.
+- The original finding—negative correlation between AQ and reward sensitivity (ρ_win)—was explored in the HBM framework, but its robustness under shrinkage remains under investigation.
+
 
 ---
 
